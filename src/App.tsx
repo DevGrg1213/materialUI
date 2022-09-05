@@ -1,14 +1,16 @@
 import "./App.css";
-import MuiTextFeild from "./component/MuiTextFeild";
 // import MuiTypography from "./component/MuiTypography";
 // import MuiButton from "./component/MuiButton";
+// import MuiTextFeild from "./component/MuiTextFeild";
+import MuiSelect from "./component/MuiSelect";
 
 function App() {
   return (
     <div className="App">
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
-      <MuiTextFeild />
+      {/* <MuiTextFeild /> */}
+      <MuiSelect />
     </div>
   );
 }
