@@ -12,7 +12,8 @@ import "./App.css";
 // import MuiBox from "./component/MuiBox";
 // import MuiCard from "./component/MuiCard";
 // import MuiAccordion from "./component/MuiAccordion";
-import MuiImageList from "./component/MuiImageList";
+// import MuiImageList from "./component/MuiImageList";
+import MuiNavigation from "./component/MuiNavigation";
 function App() {
   return (
     <div className="App">
@@ -29,7 +30,8 @@ function App() {
       {/* <MuiBox /> */}
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
-      <MuiImageList />
+      {/* <MuiImageList /> */}
+      <MuiNavigation />
     </div>
   );
 }
